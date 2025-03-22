@@ -14,4 +14,4 @@ let amountWorkDays = 40 / 5;
 let hourToExitDays = (11 - 2); 
 let priceHour = 80; 
 console.log('Успею ли выполнить работу?: ', amountWorkDays <= hourToExitDays);
-console.log('Сколько за это запрошу?: ', priceHour * (amountWorkDays * 5));
+console.log('Сколько за это запрошу?: ', priceHour * (amountWorkDays * 5) + '$');
